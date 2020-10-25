@@ -1,0 +1,9 @@
+server:
+  prot: 8080
+spring:
+  dubbo:
+    application:
+      name: demo-consumer
+    registry:
+      address: zookeeper://172.20.10.4:2181
+    scan: com.dubbo.controller
